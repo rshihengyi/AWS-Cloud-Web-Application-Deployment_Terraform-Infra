@@ -100,7 +100,7 @@ resource "aws_iam_policy" "git_permission_policies_tf" {
 }
 
 resource "aws_iam_role_policy_attachment" "git_attach_policies" {
-  role       = "Access_TF_resources_arch1"
+  role       = aws_iam_role.git_ssm_tf.name
   policy_arn = aws_iam_policy.git_permission_policies_tf.arn
 }
 
