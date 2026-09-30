@@ -1,3 +1,5 @@
 GITHUB_USERNAME = "rshihengyi"
+git_user_id     = "175484028"
+git_repo_id     = "1141922324"
 APP_REPO        = "AWS_WebApp_Project"
 TF_REPO         = "AWS_WebApp_Project_Terraform"
